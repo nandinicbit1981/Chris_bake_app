@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The provider info defines all of the essential information about a widget that's needed for the
+system to properly create, update, resize (if possible), and configure your widget. This XML file
+contains properties such as the widget's minimum size, the interval at which it should be updated,
+the name of the activity used to configure the widget, how it can resize, the layout for the widget,
+and where the widget can appear. That last parameter is important since, as of API 17, widgets can appear on either the
+home screen or the lock screen. -->
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/baking_widget_provider"
+    android:initialLayout="@layout/baking_widget_provider"
+    android:minHeight="40dp"
+    android:minWidth="40dp"
+    android:previewImage="@mipmap/ic_launcher"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen"></appwidget-provider>
